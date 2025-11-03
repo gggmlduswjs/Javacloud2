@@ -1,0 +1,9 @@
+package day01Prac.제네릭매서드;
+
+public class AMain{
+
+    public static void main( String[] args){
+       String[] strings = {"apple", "banana", "orange", "grape", "kiwi"};   
+       int result= getIndex( strings, "orange");
+    }
+}

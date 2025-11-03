@@ -1,4 +1,4 @@
-package day01Prac.제네릭매서드;
+package day1prac.제네릭클래스;
 
 public class Dog {
 	
@@ -20,10 +20,13 @@ public class Dog {
 		return age;
 	}
 	
-	// 생성자
 	
-	// toString
+	//생성자
 	
-	// getter
+	//toString 
+	
+	//getter
+
+	
 	
 }
