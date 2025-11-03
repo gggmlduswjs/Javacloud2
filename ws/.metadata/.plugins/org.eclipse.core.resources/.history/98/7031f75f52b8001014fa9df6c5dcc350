@@ -1,0 +1,16 @@
+package day01Prac.오늘의요리사;
+
+public class SampleCook5 extends Cook{
+
+	public SampleCook5() {
+		super();
+	}
+	
+	public SampleCook5(String name) {
+		this.name;
+		super();
+	}
+	
+	
+
+}

@@ -1,0 +1,25 @@
+package day01Prac.라이브러리만들기;
+
+public class MyLib {
+
+	
+	// 1.  별(★ )을   3번 출력하는 매서드 만들기 
+	
+	public void printStarThree() {
+		System.out.print("*");
+		System.out.print("*");
+		System.out.println("*");
+	}
+	
+	// 2.  원하는 문자를 3번 출력하는 매서드 만들기
+	
+	public void printChar(char ch) {
+		System.out.print(ch);
+		System.out.print(ch);
+		System.out.println(ch);
+	}
+	
+	// 3.  원하는 코드를 3번 실행해 주는 매서드 만들기
+	
+	
+}

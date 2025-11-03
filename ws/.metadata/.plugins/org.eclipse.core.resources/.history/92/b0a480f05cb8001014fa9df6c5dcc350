@@ -1,0 +1,32 @@
+package day01Prac.라이브러리만들기;
+
+public class MyLibMain {
+	
+	public static void main(String[] args) {
+		MyLib lib = new MyLib();
+		lib.printStarThree();
+		
+		lib.printChar('-');
+		lib.printChar('김');
+		
+		//
+		
+		// 1. 인터페이스를 구현한 클래스 작성하기
+		// 2. 객체 생성하기
+		
+		// 이름있는 클래스 만들기
+		lib.runCode(new 이대훈2());
+		// 매서드안에서 클래스를 작성할 수 있다(지역내부 클래스)
+		class HellowWorld2 implements MyRunnable{
+
+			@Override
+			public void run() {
+				// TODO Auto-generated method stub
+				
+			}
+			
+		}
+		lib.runCode();
+		
+	}
+}

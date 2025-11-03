@@ -1,0 +1,16 @@
+package day01Prac제네릭클래스;
+
+import java.util.ArrayList;
+
+public class ArrayList사용하기 {
+
+	public static void main(String[] args) {
+		
+		
+		ArrayList list = new ArrayList();
+		
+		list.add("안녕");
+
+	}
+
+}

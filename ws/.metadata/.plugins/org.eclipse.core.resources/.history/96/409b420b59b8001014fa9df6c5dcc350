@@ -1,0 +1,13 @@
+package day01Prac.라이브러리만들기;
+
+public class MyLib {
+
+	public void pizza() {
+
+		String[] pizza = { "피자", "도우", "치즈" };
+
+		for (int i = 0; i < pizza.length; i++) {
+			System.out.println(pizza[i]);
+		}
+	}
+}

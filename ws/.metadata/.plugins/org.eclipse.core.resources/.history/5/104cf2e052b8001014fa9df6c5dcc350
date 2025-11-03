@@ -1,0 +1,24 @@
+package day01Prac.오늘의요리사;
+
+public class SampleCook5 extends Cook implements 한식가능한{
+
+	public SampleCook5() {
+		super();
+	}
+	
+	public SampleCook5(String name) {
+		this.name=name;
+		
+	}
+	
+ 
+
+	@Override
+	public String 비빔밥만들기() {
+		// TODO Auto-generated method stub
+		return "육회비빔밥";
+	}
+	
+	
+
+}

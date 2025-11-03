@@ -1,0 +1,8 @@
+package day01Prac.라이브러리만들기;
+
+public class MyLibMain {
+	
+	public static void main(String[] args) {
+		MyLib lib = new MyLib();
+	}
+}

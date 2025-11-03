@@ -1,0 +1,23 @@
+package day01Prac.라이브러리만들기;
+
+public class 이대훈2 implements MyRunnable{
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		public void runCode(이대훈 a) {
+			a.pizza();
+		}
+		
+		public void runCode2(HelloWorld a) {
+			a.printhelloWorld();
+		}
+		
+		public void runCode3(아무코드작성 a) {
+			a.아무코드작성();
+		}
+	}
+	
+	
+
+}

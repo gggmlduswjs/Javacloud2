@@ -1,0 +1,21 @@
+package day01Prac.오늘의요리사;
+
+public class SampleCook5 extends Cook implements 한식가능한{
+
+	public SampleCook5() {
+		super();
+	}
+	
+	public SampleCook5(String name) {
+		this.name=name;
+		
+	}
+	
+	public String 찌게만들기() {
+		return "김치찌게";
+		
+	}
+	
+	
+
+}

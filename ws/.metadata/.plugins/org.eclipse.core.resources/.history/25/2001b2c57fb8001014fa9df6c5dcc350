@@ -1,0 +1,20 @@
+package day01Prac제네릭클래스;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+		BoxAcorn box1 = new BoxAcorn();
+		box1.setAcorn(new Acorn("t1","박두식"));
+		Acorn result = box1.getAcorn();
+		System.out.println(result);
+		
+		BoxString box2 = new BoxString();
+		box2.setStr("제네릭배우기");
+		String result2 = box2.getStr();
+		System.out.println(result2)
+
+	}
+
+}

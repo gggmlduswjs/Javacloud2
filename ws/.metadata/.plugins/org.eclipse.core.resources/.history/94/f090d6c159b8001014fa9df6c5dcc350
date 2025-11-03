@@ -1,0 +1,7 @@
+package day01Prac.라이브러리만들기;
+
+public class 매서드실행Main {
+	
+	ex1_전희연.이름출력하기("우주연");
+	
+}

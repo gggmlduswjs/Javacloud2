@@ -1,0 +1,39 @@
+package day01Prac제네릭클래스;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+		BoxAcorn box1 = new BoxAcorn();
+		box1.setAcorn(new Acorn("t1","박두식"));
+		Acorn result = box1.getAcorn();
+		System.out.println(result);
+		
+		BoxString box2 = new BoxString();
+		box2.setStr("제네릭배우기");
+		String result2 = box2.getStr();
+		System.out.println(result2);
+		
+		
+		Box<Acorn> boxT = new Box<>();
+		
+		boxT.setT(new Acorn("T2","이성빈"));
+		Acorn result3 = boxT.getT();
+		
+		Box<String> boxTstr = new Box<>();
+		
+		boxTstr.setT("제네릭 좋아");
+		
+		String result4=boxTstr.getT();
+		System.out.println(result4);
+		
+		BoxObject boxo=new BoxObject();
+		boxo.setObject(new Acorn("t3","최성원"));
+		Object result5 = boxo.getObject();
+		
+		Acorn downcast=(Acorn)result5;
+
+	}
+
+}

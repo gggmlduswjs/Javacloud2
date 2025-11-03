@@ -1,0 +1,18 @@
+package day01Prac.라이브러리만들기;
+
+public class ex1_전희연 {
+	String name ="전희연";
+	
+	public static void 이름출력하기() {
+	
+		System.out.println(name);
+	}
+	
+	public static void main(String[] args) {
+		이름출력하기();
+	}
+
+}
+
+
+

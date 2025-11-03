@@ -1,0 +1,11 @@
+package day01Prac제네릭클래스;
+
+
+
+// 클래스 매서드 static 매서드를 제네릭으로 만들기
+public class PrintEx {
+	
+	
+	
+
+}

@@ -1,0 +1,21 @@
+package day01Prac.라이브러리만들기;
+
+public class 매서드실행Main {
+	
+	public static void main(String[] args) {
+		ex1_전희연.이름출력하기("우주연");
+		
+		아무코드작성 a = new 아무코드작성();
+		a.아무코드작성();
+		
+		MyLib c = new MyLib();
+		c.pizza();
+		
+		HelloWorld d = new HelloWorld();
+		
+		// 생성자는 객체가 생성될 때 단 한 번 호출됨
+	}
+	
+	
+	
+}

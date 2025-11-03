@@ -1,0 +1,5 @@
+package day01Prac.래퍼클래스;
+
+public enum Ex01 {
+
+}

@@ -1,0 +1,14 @@
+package day01Prac제네릭클래스;
+
+public class Dog {
+	
+	String name;
+	int age;
+	
+	// 생성자
+	
+	// toString
+	
+	// getter
+	
+}

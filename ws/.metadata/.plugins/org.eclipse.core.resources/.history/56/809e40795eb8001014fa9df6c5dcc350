@@ -1,0 +1,64 @@
+package day01Prac.라이브러리만들기;
+
+public class MyLibMain {
+	
+	public static void main(String[] args) {
+		MyLib lib = new MyLib();
+		lib.printStarThree();
+		
+		lib.printChar('-');
+		lib.printChar('김');
+		
+		//
+		
+		// 1. 인터페이스를 구현한 클래스 작성하기
+		// 2. 객체 생성하기
+		
+		// 이름있는 클래스 만들기
+		lib.runCode(new 이대훈2());
+		// 매서드안에서 클래스를 작성할 수 있다(지역내부 클래스)
+		class HellowWorld2 implements MyRunnable{
+
+			@Override
+			public void run() {
+				// TODO Auto-generated method stub
+				
+					System.out.println("안녕하세요 세상");
+				
+			}
+			
+		}
+		lib.runCode(new HellowWorld2());
+		
+		
+		// 익명클래스
+		// new MyRunnable(){} => 익명클래스 작성하는 문법
+		lib.runCode( new MyRunnable() {
+
+			@Override
+			public void run() {
+				// TODO Auto-generated method stub
+				System.out.println("지원호출바람");
+			}} );
+		
+		
+		
+		// ----
+		
+		// 이름있는 클래스 만들기
+		lib.runCode(new 이름출력하기());
+		
+		class 이름출력하기 implements MyRunnable{
+
+		
+
+			@Override
+			public void run() {
+				System.out.println("전희연");
+				
+			}
+			
+		}
+		
+	}
+}
