@@ -137,7 +137,7 @@ Function<T,R>       :  R apply ( T t)
 오후 실습과제
 ############################## 
 Runnable
-Consumer<T>
+Consumer<T> -forEach 알 수 없는 코드는 인터페이스
 Supplier<T>
 Predicate<T>
 Function<T,R>

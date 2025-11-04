@@ -1,4 +1,4 @@
-package day2.prac.람다.연습;
+package day2.prac.람다.오전실습.전희연;
 
 
 class RunnableBucket implements Runnable {
