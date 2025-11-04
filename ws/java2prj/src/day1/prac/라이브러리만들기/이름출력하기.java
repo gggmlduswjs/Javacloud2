@@ -1,0 +1,23 @@
+package day1.prac.라이브러리만들기;
+
+public class 이름출력하기 implements MyRunnable {
+	
+	
+
+	@Override
+	public void run( ) {
+		// TODO Auto-generated method stub
+//		String name = null;
+		System.out.println("전희연");
+		
+	}
+	
+	
+}
+
+
+
+
+
+
+

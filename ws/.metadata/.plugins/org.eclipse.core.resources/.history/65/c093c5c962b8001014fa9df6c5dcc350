@@ -1,9 +1,0 @@
-package day01Prac.정렬;
-
-public class AcornMain {
-	
-	public static void main(String[] args) {
-		Acorn a = new Acorn("t1","손민영",100);
-	}
-
-}

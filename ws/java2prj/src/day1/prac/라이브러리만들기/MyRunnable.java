@@ -1,0 +1,10 @@
+package day1.prac.라이브러리만들기;
+
+public interface MyRunnable {
+	
+	// 기능을 만들 매서드 약속하기
+	public void run();
+
+
+
+}

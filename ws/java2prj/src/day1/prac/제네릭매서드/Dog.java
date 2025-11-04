@@ -1,0 +1,32 @@
+package day1.prac.제네릭매서드;
+
+public class Dog {
+	
+	String name;
+	int age;
+	public Dog(String name, int age) {
+		super();
+		this.name = name;
+		this.age = age;
+	}
+	@Override
+	public String toString() {
+		return "Dog [name=" + name + ", age=" + age + "]";
+	}
+	public String getName() {
+		return name;
+	}
+	public int getAge() {
+		return age;
+	}
+	
+	
+	//생성자
+	
+	//toString 
+	
+	//getter
+
+	
+	
+}

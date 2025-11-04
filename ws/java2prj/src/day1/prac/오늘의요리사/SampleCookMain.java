@@ -1,0 +1,14 @@
+package day1.prac.오늘의요리사;
+
+public class SampleCookMain {
+	public static void main(String[] args) {
+		
+		SampleCook4 a= new SampleCook4("손민영");
+		SampleCook5_전희연 b=new SampleCook5_전희연("전희연");
+		
+		System.out.println(a);
+		System.out.println(b);
+		
+	}
+
+}

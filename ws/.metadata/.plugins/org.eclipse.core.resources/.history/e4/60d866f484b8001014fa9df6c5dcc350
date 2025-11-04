@@ -1,9 +1,0 @@
-package day01Prac.제네릭매서드;
-
-public class PrintExMain {
-	
-	public static void main(String[] str) {
-		System.out.println(t);
-	}
-
-}

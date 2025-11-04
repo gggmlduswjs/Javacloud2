@@ -1,9 +1,0 @@
-package day01Prac.정렬;
-
-public class this확인하기 {
-
-	public static void main(String[] args) {
-		Acorn a = new Acorn("t1","손민영",100);
-		Acorn b=new Acorn("t2", "이혜린",1200);
-	}
-}

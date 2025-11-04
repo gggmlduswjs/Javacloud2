@@ -1,9 +1,0 @@
-package day01Prac.제네릭매서드;
-
-public class PrintExG {
-	// 제네릭 매서드
-	public static <T> void print(T t) {
-		
-	}
-
-}
