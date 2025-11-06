@@ -1,0 +1,58 @@
+# === Eclipse metadata ===
+.metadata/
+*.tmp
+*.bak
+*.swp
+*~.nib
+.localhistory/
+
+# === Eclipse project settings ===
+.classpath
+.project
+.settings/
+
+# === Build directories ===
+bin/
+build/
+out/
+target/
+
+# === Gradle cache ===
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# === Java ===
+*.class
+*.log
+
+# === OS-specific ===
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === JetBrains IDEs (optional) ===
+.idea/
+*.iml
+*.iws
+
+# === Logs and temporary files ===
+logs/
+*.log
+hs_err_pid*
+replay_pid*
+
+# === Maven (if used later) ===
+.mvn/
+!**/src/main/**/.mvn
+!**/src/test/**/.mvn
+
+# === Node / Web (if using web modules) ===
+node_modules/
+dist/
+.env
