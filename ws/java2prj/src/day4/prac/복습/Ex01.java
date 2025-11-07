@@ -105,8 +105,8 @@ public class Ex01 {
 		System.out.println( rtn2);
 		
 		
-		
-		// R  apply( T  t)
+		// Function<T,R> – 변환하는 함수, 입력(T) -> 출력(R)
+		// R  apply( T  t)-추상 매서드
 		//Function
 		
 		//        입력    , 반환의 타입

@@ -1,0 +1,42 @@
+package day5.prac.필드매서드정보확인;
+
+public class Store {
+	
+	int apple;
+	int banana;
+	
+	
+	public Store(int apple, int banana) {
+		super();
+		this.apple = apple;
+		this.banana = banana;
+	}
+	
+	@Override
+	public String toString() {
+		return "Store [apple=" + apple + ", banana=" + banana + "]";
+	}
+
+	public int getApple() {
+		return apple;
+	}
+
+	public void setApple(int apple) {
+		this.apple = apple;
+	}
+
+	public int getBanana() {
+		return banana;
+	}
+
+	public void setBanana(int banana) {
+		this.banana = banana;
+	}
+	
+	public Store() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+}
